@@ -15,6 +15,7 @@ namespace WindowsFormsApplication1
         static void Main()
         {
             string develop01 = string.Empty();
+            string releast = string.Empty();
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
