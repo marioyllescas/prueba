@@ -16,14 +16,19 @@ namespace WindowsFormsApplication1
         {
             string develop01 = string.Empty();
 
-            develop01 = "test";
-            develop01 = develop01.ToUpper();
+            develop01 = "test01";
+            //develop01 = develop01.ToUpper();
 
             bool efectividad = true;
+            bool visualizacion = false;
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+        }
+
+        static void Ejecuta(ref bool efectividad){
+            efectividad = false;
         }
     }
 }
