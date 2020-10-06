@@ -16,6 +16,8 @@ namespace WindowsFormsApplication1
         {
             string develop01 = string.Empty();
 
+            develop01 = "test";
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
