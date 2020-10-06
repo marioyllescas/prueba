@@ -17,6 +17,7 @@ namespace WindowsFormsApplication1
             string develop01 = string.Empty();
 
             develop01 = "test";
+            develop01 = develop01.ToUpper();
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
